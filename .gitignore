@@ -1,0 +1,11 @@
+/External
+*.ipch
+*.dll
+*.db
+.vs/SFML Project/v15/.suo
+*.opendb
+*.vcxproj
+*.filters
+*.suo
+*.sdf
+*.sln
