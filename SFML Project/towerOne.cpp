@@ -15,6 +15,7 @@ TowerOne::TowerOne(int damage,int fireRate,float x,float y)
 TowerOne::~TowerOne()
 {
 
+
 }
 
 void TowerOne::update(float dt)const
