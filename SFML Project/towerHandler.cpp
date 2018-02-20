@@ -35,10 +35,7 @@ void TowerHandler::freeMemory()
 
 void TowerHandler::draw(sf::RenderTarget & target, sf::RenderStates states) const
 {
-	for (int i = 0; i < this->nrOfTowers; i++)
-	{
-		target.draw(this->towers[i].draw(), states);
-	}
+	
 }
 
 TowerHandler::TowerHandler(int capacity)
