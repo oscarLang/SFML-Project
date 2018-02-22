@@ -15,7 +15,7 @@ private:
 public:
 	TowerHandler(int capacity = 10);
 	TowerHandler(const TowerHandler &orgObj);
-	virtual ~TowerHandler();
+	~TowerHandler();
 	TowerHandler &operator=(const TowerHandler &orgObj);
 	void addTowerOne(int damage, int fireRate,float x,float y);
 	//void addTowerTwo(int damage, int fireRate);
