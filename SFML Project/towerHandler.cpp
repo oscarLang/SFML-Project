@@ -35,7 +35,7 @@ void TowerHandler::freeMemory()
 
 void TowerHandler::draw(sf::RenderTarget & target, sf::RenderStates states) const
 {
-	
+
 }
 
 TowerHandler::TowerHandler(int capacity)

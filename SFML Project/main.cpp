@@ -16,7 +16,7 @@ int main()
 				window.close();
 		}
 		
-		game.Update(gameTime.restart().asSeconds());
+		game.update(gameTime.restart().asSeconds());
 		window.clear();
 		window.draw(game);
 		window.display();

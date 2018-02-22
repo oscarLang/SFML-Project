@@ -20,7 +20,7 @@ TowerOne::~TowerOne()
 
 void TowerOne::update(float dt)const
 {
-
+	//updatera rotation mm
 }
 
 TowerOne * TowerOne::clone() const
