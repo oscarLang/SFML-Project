@@ -16,6 +16,7 @@ public:
 	~TowerOne();
 	void update(float dt)const;
 	TowerOne *clone()const;
+	
 };
 
 #endif // !TOWERONE_H

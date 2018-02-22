@@ -9,6 +9,7 @@ int main()
 {
 	sf::RenderWindow window(sf::VideoMode(600, 600), "Tower test!");
 	Game game;
+	sf::Clock gameTime;
 
 	while (window.isOpen())
 	{
@@ -18,9 +19,9 @@ int main()
 			if (event.type == sf::Event::Closed)
 				window.close();
 		}
-
+		game.update(gameTime.restart().asSeconds());
 		window.clear();
-
+		window.draw(game);
 		window.display();
 	}
 

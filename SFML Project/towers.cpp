@@ -1,5 +1,9 @@
 #include "towers.h"
 
+void Towers::draw(sf::RenderTarget & target, sf::RenderStates states) const
+{
+}
+
 Towers::Towers(int damage, int fireRate, float x,float y)
 {
 	this->damage = damage;

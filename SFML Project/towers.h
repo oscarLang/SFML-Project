@@ -9,7 +9,7 @@ private:
 	int fireRate;
 	sf::Vector2f pos;
 
-	virtual void draw(sf::RenderTarget &target, sf::RenderStates states) const = 0;
+	void draw(sf::RenderTarget &target, sf::RenderStates states) const;
 	//int price;
 public:
 	Towers(int damage, int fireRate, float x,float y);
@@ -24,5 +24,6 @@ public:
 	void setPos( float x,float y);
 	virtual void update(float dt)const =0;
 	virtual Towers *clone()const = 0;
+	
 };
 #endif // !TOWERS_H

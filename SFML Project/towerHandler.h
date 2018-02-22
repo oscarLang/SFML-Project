@@ -2,7 +2,7 @@
 #define TOWERHANDLER_H
 #include "towers.h"
 using namespace std;
-class TowerHandler
+class TowerHandler:public sf::Drawable
 {
 private:
 	Towers* *towers;
