@@ -18,6 +18,7 @@ public:
 	~TowerHandler();
 	TowerHandler &operator=(const TowerHandler &orgObj);
 	void addTowerOne(int damage, int fireRate,float x,float y);
+	void updateAllTowers(float dt);
 	//void addTowerTwo(int damage, int fireRate);
 
 	

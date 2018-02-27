@@ -1,12 +1,11 @@
-﻿  towers.cpp
-  towerOne.cpp
-c:\users\oscar lang\source\repos\sfml project\sfml project\towerone.h(3): warning C4067: unexpected tokens following preprocessor directive - expected a newline
-c:\users\oscar lang\source\repos\sfml project\sfml project\towerone.h(8): warning C4584: 'TowerOne': base-class 'sf::Drawable' is already a base-class of 'Towers'
-  c:\users\oscar lang\source\repos\sfml project\external\sfml 32-bit\include\sfml\graphics\rendertarget.hpp(45): note: see declaration of 'sf::Drawable'
-  c:\users\oscar lang\source\repos\sfml project\sfml project\towers.h(5): note: see declaration of 'Towers'
-  testTowers.cpp
+﻿  Game.cpp
   Generating Code...
-testTowers.obj : error LNK2019: unresolved external symbol "public: void __thiscall Game::update(float)" (?update@Game@@QAEXM@Z) referenced in function _main
-testTowers.obj : error LNK2019: unresolved external symbol "public: __thiscall Game::Game(void)" (??0Game@@QAE@XZ) referenced in function _main
-testTowers.obj : error LNK2019: unresolved external symbol "public: virtual __thiscall Game::~Game(void)" (??1Game@@UAE@XZ) referenced in function _main
-C:\Users\Oscar Lang\source\repos\SFML Project\Bin\x86-Debug\SFML Project.exe : fatal error LNK1120: 3 unresolved externals
+  Compiling...
+  towerHandler.cpp
+  Generating Code...
+  Skipping... (no relevant changes detected)
+  testTowers.cpp
+  towers.cpp
+  towerOne.cpp
+  Generating Code...
+  SFML Project.vcxproj -> C:\Users\Oscar Lang\source\repos\SFML Project\Bin\x86-Debug\SFML Project.exe

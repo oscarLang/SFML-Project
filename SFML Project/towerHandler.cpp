@@ -99,3 +99,11 @@ void TowerHandler::addTowerOne(int damage, int fireRate,float x,float y)
 	}
 	this->towers[this->nrOfTowers++] = new TowerOne(damage, fireRate,x,y);
 }
+
+void TowerHandler::updateAllTowers(float dt)
+{
+	for (int i = 0; i < this->nrOfTowers; i++)
+	{
+		this->towers[i]->update(dt,1,1);
+	}
+}

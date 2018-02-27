@@ -17,13 +17,13 @@ TowerOne::~TowerOne()
 
 
 }
-
-void TowerOne::update(float dt)const
+void TowerOne::update(float dt,float ballonX, float ballonY)const
 {
-	//updatera rotation mm
-}
 
+}
 TowerOne * TowerOne::clone() const
 {
 	return new TowerOne(*this);
 }
+
+

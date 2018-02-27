@@ -1,10 +1,10 @@
 #ifndef TOWERONE_H
 #define TOWERONE_H
-#include "towers.h";
+#include "towers.h"
 #include "SFML\Graphics.hpp"
 using namespace std;
 
-class TowerOne:public Towers , public sf::Drawable
+class TowerOne:public Towers
 {
 private:
 	sf::Texture towerTexture;
@@ -14,8 +14,8 @@ private:
 public:
 	TowerOne(int damage=0,int fireRate=0,float x=0,float y=0);
 	~TowerOne();
-	void update(float dt)const;
 	TowerOne *clone()const;
+	void update(float dt,float ballonX,float ballonY)const;
 	
 };
 

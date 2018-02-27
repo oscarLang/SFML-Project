@@ -1,8 +1,5 @@
 #include "towers.h"
-
-void Towers::draw(sf::RenderTarget & target, sf::RenderStates states) const
-{
-}
+#include "towerOne.h"
 
 Towers::Towers(int damage, int fireRate, float x,float y)
 {
@@ -63,5 +60,7 @@ void Towers::setPos(float x, float y)
 {
 	this->pos = sf::Vector2f(x,y);
 }
+
+
 
 
